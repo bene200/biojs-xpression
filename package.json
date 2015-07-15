@@ -23,10 +23,10 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1",
-    "build": "mkdirp build && browserify -r ./:test -o build/test.js",
+    "build": "mkdirp build && browserify -r ./:biojs-xpression -o build/xpression.js",
     "build-browser": "npm run build",
     "install": "npm run build",
-    "watch": "watchify -r ./:test -v -o build/biojs-xpression.js",
+    "watch": "watchify -r ./:test -v -o build/xpression.js",
     "w": "prunner \"npm run sniper\" \"npm run watch\"",
     "sniper": "sniper ."
   },
@@ -38,11 +38,11 @@
     "d3-tip": "^0.6.7"
   },
   "devDependencies": {
-      "mkdirp": "^0.5.0",
-      "browserify": "6.x",
-      "sniper": "0.x",
-      "watchify": "^1.0.6",
-      "prunner": "1.x"
+    "browserify": "6.x",
+    "mkdirp": "^0.5.1",
+    "prunner": "1.x",
+    "sniper": "0.x",
+    "watchify": "^1.0.6"
   },
   "sniper": {
     "js": [
