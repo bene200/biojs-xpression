@@ -1,7 +1,7 @@
 {
   "name": "biojs-xpression",
   "description": "Visualise tissue-specific gene expression",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/bene200/biojs-xpression",
   "author": {
     "name": "Benedikt Rauscher",
